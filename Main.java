@@ -3,8 +3,6 @@ import java.util.Arrays;
 public class Main {
 
     public static boolean isPalindrome(String str) {
-        System.out.println("");
-        System.out.println("Start!");
         String reversed = new StringBuilder(str).reverse().toString();
         return str.equals(reversed);
     }
@@ -104,6 +102,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        System.out.println();
+        System.out.println("Start!");
+        System.out.printIn();
 
         System.out.println("Завдання 1:");
         System.out.println(isPalindrome("racecar"));
